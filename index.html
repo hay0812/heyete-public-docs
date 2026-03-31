@@ -7,91 +7,12 @@
     <meta http-equiv="refresh" content="3;URL='https://corp.heyete.com/results'">
     
     <title>File Server | Heyete Official</title>
+    <link rel="stylesheet" href="/assets/css/loading.css">
+    <script src="/assets/css/loading.js" defer></script>
 
-    <script>
-        (function() {
-            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            document.documentElement.style.backgroundColor = isDark ? '#121212' : '#ffffff';
-        })();
-    </script>
     
-    <style>
-        :root {
-            --bg: #ffffff;
-            --text: #1a1a1a;
-            --accent: #0066cc;
-            --loader-bg: #f3f3f3;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg: #121212;
-                --text: #e0e0e0;
-                --accent: #4dabff;
-                --loader-bg: #333333;
-            }
-        }
-
-        
-        html {
-            background-color: var(--bg);
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: var(--bg);
-            color: var(--text);
-          
-            transition: background-color 0.3s, color 0.3s;
-            opacity: 0; 
-            animation: fadeIn 0.2s forwards;
-        }
-
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
-
-        .loading-container {
-            text-align: center;
-            padding: 40px;
-        }
-
-        .loader {
-            border: 3px solid var(--loader-bg);
-            border-top: 3px solid var(--accent);
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .msg {
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
-            opacity: 0.8;
-        }
-
-        .link {
-            margin-top: 20px;
-            font-size: 0.8rem;
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-    </style>
+    
+    
 </head>
 <body>
 
@@ -103,11 +24,6 @@
         </div>
     </div>
 
-    <script>
     
-        setTimeout(function(){
-            window.location.href = "https://corp.heyete.com/results";
-        }, 3000);
-    </script>
 </body>
 </html>

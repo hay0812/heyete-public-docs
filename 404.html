@@ -3,49 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 検索エンジンに載せない -->
     <meta name="robots" content="noindex, nofollow">
     
     <title>404 Not Found | Heyete Official</title>
 
-    <script>
-        (function() {
-            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            document.documentElement.style.backgroundColor = isDark ? '#121212' : '#ffffff';
-        })();
-    </script>
+    <link rel="stylesheet" href="/assets/css/404.css">
+    <script src="/assets/js/404.js" defer></script>
+  
     
-    <style>
-        :root {
-            --bg: #ffffff;
-            --text: #1a1a1a;
-            --accent: #0066cc;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg: #121212;
-                --text: #e0e0e0;
-                --accent: #4dabff;
-            }
-        }
-        html { background-color: var(--bg); }
-        body {
-            font-family: -apple-system, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: var(--bg);
-            color: var(--text);
-            text-align: center;
-        }
-        .container { padding: 20px; }
-        h1 { font-size: 3rem; margin: 0; color: var(--accent); }
-        p { font-size: 1rem; margin: 10px 0 20px; opacity: 0.8; }
-        .timer { font-size: 0.8rem; opacity: 0.6; }
-        a { color: var(--accent); text-decoration: none; font-weight: bold; }
-    </style>
+    
 </head>
 <body>
 
